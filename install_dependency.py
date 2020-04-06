@@ -5,5 +5,3 @@ def install_dependency():
     os.system("python3 -m nose")
 
 install_dependency()
-
-

@@ -121,14 +121,9 @@ def create_experiment_runs(tracking_url):
 # In[ ]:
 
 def main():
-    #if len(sys.argv) != 2:
-    #    print('pass in tracking uri')
-    #   sys.exit(1)
-
-    #url = sys.argv[1]
-
     mlflow_tracking_url = get_mlflow_tracking_url()
     create_experiment_runs(mlflow_tracking_url)
+    print('done')
 
 if __name__ == '__main__':
     main()

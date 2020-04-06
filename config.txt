@@ -1,0 +1,31 @@
+[rds_config]
+run_rds_test_scripts = false
+
+[mysql]
+mysql_arn = any_value
+mysql_host = any_value
+
+[mssql]
+mssql_arn = any_value
+mssql_host = any_value
+
+[oracle]
+oracle_arn = any_value
+oracle_host = "any_value
+
+[postgres]
+postgres_arn = any_value
+postgres_host = any_value
+
+[s3_bucket_attached]
+bucket_name = rmlcontent
+file_name = credit_card_03.png
+
+[s3_bucket_project]
+bucket_name = aatif.salehingmail/project40bzr
+file_name = copy.txt
+
+
+
+
+
